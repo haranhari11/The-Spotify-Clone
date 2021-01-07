@@ -1,0 +1,110 @@
+.user-details {
+  position: relative;
+  white-space: nowrap;
+}
+
+.user-details-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 32px;
+  height: 32px;
+  padding: 0 2px;
+  border-radius: 23px;
+  background: rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+}
+
+.user-details-container:hover {
+  background-color: #202020;
+}
+
+.user-image {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  object-fit: contain;
+  object-position: center center;
+}
+
+.default-user {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: #302f2f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-name {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  position: relative;
+  margin-left: 8px;
+  line-height: 28px;
+  max-width: 110px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.user-dropdown {
+  margin-bottom: 6px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.user-dropdown .up {
+  margin-top: 15px;
+}
+
+.user-info-options {
+  width: 145px;
+  background-color: #272727;
+  padding: 4px 4px 0;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 100%;
+  margin-top: 8px;
+  right: 0;
+  list-style: none;
+}
+
+.user-info-options > li > * {
+  width: 100%;
+  padding: 3px 4px 3px 8px;
+  margin-bottom: 4px;
+  line-height: 32px;
+  font-size: 14px;
+  font-weight: 500;
+  white-space: nowrap;
+  background: none;
+  border: 0;
+  border-radius: 2px;
+  user-select: none;
+  cursor: default;
+  color: hsla(0, 0%, 100%, 0.7);
+  display: flex;
+  align-items: center;
+  position: relative;
+  text-decoration: none;
+}
+
+.user-info-options > li > *:hover,
+.user-info-options > li > *:focus {
+  color: #ffffff;
+  background-color: #444;
+}
+
+.user-info-options > :first-child {
+  border-radius: 4px 4px 0 0;
+}
+
+.user-info-options > :last-child {
+  border-top: 1px solid #404040;
+  border-radius: 0 0 4px 4px;
+}

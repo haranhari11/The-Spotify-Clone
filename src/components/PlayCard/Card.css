@@ -1,0 +1,138 @@
+.play-cards {
+  margin-left: 32px;
+}
+
+.card-types {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  margin-top: 25px;
+}
+
+.card-view-container {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.card-item {
+  background-color: #181818;
+  list-style-type: none;
+  font-size: 15px;
+  font-weight: 600;
+  width: 185px;
+  height: 260px;
+  cursor: pointer;
+  margin: 10px 20px 10px 0;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+.card-image {
+  padding: 16px 16px 2px 16px;
+  position: relative;
+}
+
+.card-artist-image {
+  padding: 16px 16px 2px 13.5px;
+  position: relative;
+}
+
+.card-image img {
+  height: 153px;
+  width: 100%;
+  border-radius: 3px;
+  box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
+}
+
+.card-artist-image img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
+}
+
+.default-card-image {
+  height: 100%;
+  width: 100%;
+  border-radius: 3px;
+  box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.default-card-artist-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #aeaeae;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
+}
+
+.card-play-song {
+  width: 40px;
+  height: 40px;
+  top: 80%;
+  left: 75%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background-color: #1db954;
+  opacity: 0;
+  text-align: center;
+  border-radius: 50px;
+  box-shadow: 0 9px 9px rgba(0, 0, 0, 0.3);
+}
+
+.card-play-song .fas {
+  font-size: 15px;
+  margin-top: 13px;
+  margin-left: 3px;
+  color: #f1f1f1;
+  cursor: pointer;
+}
+
+.card-item:hover {
+  background-color: #292929;
+  transition: all 0.3s ease-in-out;
+}
+
+.card-item:hover .card-play-song {
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+}
+
+.card-details {
+  margin-top: 5px;
+  padding: 10px 16px;
+  white-space: pre;
+  overflow: hidden;
+  line-height: 20px;
+}
+
+.card-name {
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.card-artist-name {
+  font-size: 14px;
+  color: #aeaeae;
+  margin-top: 4px;
+}
+
+.card-artist-type {
+  line-height: 25px;
+  font-size: 14px;
+  color: #aeaeae;
+  text-transform: capitalize;
+}

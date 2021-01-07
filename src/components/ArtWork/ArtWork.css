@@ -1,0 +1,18 @@
+.album-artwork-container {
+  position: relative;
+  width: 55px;
+  height: 55px;
+  margin-top: 15px;
+  background-color: #555555;
+}
+
+.album-artwork {
+  width: 100%;
+}
+
+.default-artwork {
+  margin-top: 3px;
+  margin-right: 3px;
+  display: flex;
+  justify-content: center;
+}

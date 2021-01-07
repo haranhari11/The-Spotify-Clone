@@ -1,0 +1,299 @@
+.section-title {
+  padding-top: 80px;
+  padding-left: 32px;
+  min-height: 340px;
+}
+
+.main-section-title {
+  padding-top: 75px;
+  padding-left: 32px;
+}
+
+.categories-section {
+  padding-top: 80px;
+  padding-left: 32px;
+  min-height: 240px;
+}
+
+.current-category {
+  margin-top: 65px;
+}
+
+.current-category-name {
+  font-size: 48px;
+  font-weight: 700;
+  color: #ffffff;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.playlist-image {
+  width: 232px;
+  height: 232px;
+  box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
+}
+
+.playlist-default-image {
+  width: 232px;
+  height: 232px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #aeaeae;
+  box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
+}
+
+.playlist-title-container {
+  display: flex;
+}
+
+.playlist-image-container {
+  margin-right: 20px;
+}
+
+.playlist-info-container {
+  padding-left: 10px;
+  position: relative;
+  top: 55px;
+}
+
+.playlist-info-container-desc {
+  padding-left: 10px;
+  position: relative;
+  top: 70px;
+}
+
+.playlist-info-container-title {
+  padding-left: 10px;
+  position: relative;
+  top: 100px;
+}
+
+.created-by {
+  font-size: 14px;
+  color: #aeaeae;
+  font-weight: 600;
+}
+
+.total-songs::before {
+  content: '•';
+  margin: 0px 4px;
+}
+
+.release-date::before {
+  content: '•';
+  margin: 0px 4px;
+}
+
+.lighter-text {
+  color: #ffffff;
+}
+
+.playlist-text {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.playlist-desc {
+  font-size: 14px;
+  color: #aeaeae;
+  font-weight: 600;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 1200px;
+}
+
+.header-title-large {
+  letter-spacing: -3px;
+  font-size: 96px;
+  margin-top: -10px;
+}
+
+.header-title-small {
+  font-size: 48px;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 1250px;
+}
+
+.browse-headers .active {
+  position: relative;
+}
+
+.current-artist-header-container {
+  display: flex;
+  margin-top: 10px;
+}
+
+.current-artist-image {
+  width: 232px;
+  height: 232px;
+  border-radius: 50%;
+  box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
+}
+
+.artist-default-image {
+  width: 232px;
+  height: 232px;
+  border-radius: 50%;
+  box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #aeaeae;
+}
+
+.current-artist-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+.artist-header-name {
+  font-size: 96px;
+  margin-bottom: 15px;
+}
+
+.artist-header-name-medium {
+  font-size: 72px;
+  margin-bottom: 10px;
+}
+
+.artist-header-name-small {
+  font-size: 48px;
+  margin-top: 10px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 1250px;
+}
+
+.current-artist-info p {
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  margin-bottom: -15px;
+}
+
+.artist-type {
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+.artist-followers {
+  font-size: 16px;
+}
+
+.liked-songs-header-container {
+  display: flex;
+}
+
+.liked-songs-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 24px;
+}
+
+.liked-playlist-text {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.liked-header-title {
+  font-size: 96px;
+  font-weight: 900;
+  letter-spacing: -0.04em;
+}
+
+.current-album-header-container {
+  display: flex;
+  margin-top: 10px;
+}
+
+.current-album-image {
+  width: 232px;
+  height: 232px;
+  box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
+}
+
+.album-default-image {
+  width: 230px;
+  height: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #aeaeae;
+  box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
+}
+
+.current-album-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+  margin-top: 70px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.current-album-info-medium {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+  margin-top: 95px;
+}
+
+.current-album-info-small {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+  margin-top: 100px;
+}
+
+.album-type {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.album-header-title {
+  font-size: 96px;
+  margin-top: -15px;
+}
+
+.album-header-title-medium {
+  font-size: 72px;
+  margin-top: -10px;
+}
+
+.album-header-title-small {
+  font-size: 48px;
+  margin-bottom: 10px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 1250px;
+}
+
+.library-header-type {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -0.04em;
+  text-transform: capitalize;
+}
